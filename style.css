@@ -17,6 +17,19 @@ body {
     box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
 }
 
+.log-container {
+    margin-top: 20px;
+    background: #fff0f7;
+    border: 2px dashed #f48fb1;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 14px;
+    color: #880e4f;
+}
+
 h1 {
     font-size: 2em;
     color: #d81b60;

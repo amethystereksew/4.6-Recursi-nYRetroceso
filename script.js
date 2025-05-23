@@ -16,9 +16,8 @@ function logMessage(message) {
     logDiv.appendChild(p);
 }
 
-/**
- * Función recursiva para buscar un regalo en la lista
- */
+//Función recursiva para buscar un regalo en la lista
+
 function findGift(gifts, giftName, index = 0) {
     logMessage(`🔍 Buscando "${giftName}" en la posición ${index}...`);
 
@@ -38,9 +37,8 @@ function findGift(gifts, giftName, index = 0) {
     return findGift(gifts, giftName, index + 1);
 }
 
-/**
- * Manejador del botón de búsqueda
- */
+//Manejador del botón de búsqueda
+
 function handleSearch() {
     const input = document.getElementById("giftInput").value.trim();
 
